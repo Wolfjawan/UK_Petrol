@@ -62,9 +62,27 @@ namespace UK_Petrol
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
+            dataGridView2.Rows.Clear();
+            
             customerNameClicked = textBox1.Text;
             notFoundLab.Text = "";
-        }
+            for (int i = 0; i < Customer.CustomerData.GetLength(0); i++)
+            {
+                for (int j = 0; j < Customer.CustomerData.GetLength(1); j++)
+                {
+                    if (textBox1.Text.Equals(Customer.CustomerData[i, j]))
+                    {
+                        dataGridView2.Rows.Add(Customer.CustomerData[i,j]);
+                        dataGridView2.Visible = true;
+                    }
+                }
+            }
+            if (textBox1.Text=="")
+            {
+                dataGridView2.Visible = false;
+            }
+
+    }
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
@@ -112,6 +130,17 @@ namespace UK_Petrol
         {
             Customersbutton2.Visible = false;
             customerpanel.Visible = false;
+            dataGridView2.Visible = false;
+        }
+
+        private void dataGridView2_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+            if (e.RowIndex >= 0 && Customer.CustomerData.GetLength(0) > e.RowIndex)
+            {
+                customerNameClicked = Customer.CustomerData[e.RowIndex, 0];
+                textBox1.Text = Customer.CustomerData[e.RowIndex, 0];
+                customerpanel.Visible = true;
+            }
         }
     }
 }

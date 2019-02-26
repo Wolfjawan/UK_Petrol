@@ -1,0 +1,10 @@
+C:\Users\WolfJawan\Desktop\UK-Petrol\UK-Petrol\bin\Debug\UK-Petrol.exe.config
+C:\Users\WolfJawan\Desktop\UK-Petrol\UK-Petrol\bin\Debug\UK-Petrol.exe
+C:\Users\WolfJawan\Desktop\UK-Petrol\UK-Petrol\bin\Debug\UK-Petrol.pdb
+C:\Users\WolfJawan\Desktop\UK-Petrol\UK-Petrol\obj\Debug\UK-Petrol.csprojAssemblyReference.cache
+C:\Users\WolfJawan\Desktop\UK-Petrol\UK-Petrol\obj\Debug\UK_Petrol.mainForm.resources
+C:\Users\WolfJawan\Desktop\UK-Petrol\UK-Petrol\obj\Debug\UK_Petrol.Properties.Resources.resources
+C:\Users\WolfJawan\Desktop\UK-Petrol\UK-Petrol\obj\Debug\UK-Petrol.csproj.GenerateResource.cache
+C:\Users\WolfJawan\Desktop\UK-Petrol\UK-Petrol\obj\Debug\UK-Petrol.csproj.CoreCompileInputs.cache
+C:\Users\WolfJawan\Desktop\UK-Petrol\UK-Petrol\obj\Debug\UK-Petrol.exe
+C:\Users\WolfJawan\Desktop\UK-Petrol\UK-Petrol\obj\Debug\UK-Petrol.pdb

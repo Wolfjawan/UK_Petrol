@@ -8,3 +8,15 @@ C:\Users\WolfJawan\Desktop\UK-Petrol\UK-Petrol\obj\Debug\UK-Petrol.csproj.Genera
 C:\Users\WolfJawan\Desktop\UK-Petrol\UK-Petrol\obj\Debug\UK-Petrol.csproj.CoreCompileInputs.cache
 C:\Users\WolfJawan\Desktop\UK-Petrol\UK-Petrol\obj\Debug\UK-Petrol.exe
 C:\Users\WolfJawan\Desktop\UK-Petrol\UK-Petrol\obj\Debug\UK-Petrol.pdb
+H:\projects\UK-Petrol\UK-Petrol\bin\Debug\UK-Petrol.exe.config
+H:\projects\UK-Petrol\UK-Petrol\bin\Debug\UK-Petrol.exe
+H:\projects\UK-Petrol\UK-Petrol\bin\Debug\UK-Petrol.pdb
+H:\projects\UK-Petrol\UK-Petrol\obj\Debug\UK-Petrol.csprojResolveAssemblyReference.cache
+H:\projects\UK-Petrol\UK-Petrol\obj\Debug\UK_Petrol.mainForm.resources
+H:\projects\UK-Petrol\UK-Petrol\obj\Debug\UK_Petrol.Properties.Resources.resources
+H:\projects\UK-Petrol\UK-Petrol\obj\Debug\UK-Petrol.csproj.GenerateResource.cache
+H:\projects\UK-Petrol\UK-Petrol\obj\Debug\UK-Petrol.csproj.CoreCompileInputs.cache
+H:\projects\UK-Petrol\UK-Petrol\obj\Debug\UK-Petrol.exe
+H:\projects\UK-Petrol\UK-Petrol\obj\Debug\UK-Petrol.pdb
+H:\projects\UK-Petrol\UK-Petrol\bin\Debug\Petroleum.accdb
+H:\projects\UK-Petrol\UK-Petrol\obj\Debug\UK_Petrol.Login.resources

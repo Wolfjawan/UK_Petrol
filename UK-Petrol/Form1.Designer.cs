@@ -31,7 +31,6 @@
             this.goToCustomersPageBttn = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.customersPanel = new System.Windows.Forms.Panel();
-            this.Customersbutton2 = new System.Windows.Forms.Button();
             this.customerpanel = new System.Windows.Forms.Panel();
             this.label10 = new System.Windows.Forms.Label();
             this.button2 = new System.Windows.Forms.Button();
@@ -49,21 +48,22 @@
             this.emailTxt = new System.Windows.Forms.TextBox();
             this.numberTxt = new System.Windows.Forms.TextBox();
             this.nameTxt = new System.Windows.Forms.TextBox();
+            this.Customersbutton2 = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.BackToHomeBttn = new System.Windows.Forms.Button();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.Column1 = new System.Windows.Forms.DataGridViewButtonColumn();
-            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.notFoundLab = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.searchBttn = new System.Windows.Forms.Button();
             this.dataGridView2 = new System.Windows.Forms.DataGridView();
             this.Column4 = new System.Windows.Forms.DataGridViewLinkColumn();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.Column1 = new System.Windows.Forms.DataGridViewButtonColumn();
+            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.customersPanel.SuspendLayout();
             this.customerpanel.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // goToCustomersPageBttn
@@ -114,18 +114,6 @@
             this.customersPanel.TabIndex = 4;
             this.customersPanel.Visible = false;
             this.customersPanel.Paint += new System.Windows.Forms.PaintEventHandler(this.customersPanel_Paint);
-            // 
-            // Customersbutton2
-            // 
-            this.Customersbutton2.Location = new System.Drawing.Point(231, 788);
-            this.Customersbutton2.Margin = new System.Windows.Forms.Padding(6);
-            this.Customersbutton2.Name = "Customersbutton2";
-            this.Customersbutton2.Size = new System.Drawing.Size(150, 47);
-            this.Customersbutton2.TabIndex = 16;
-            this.Customersbutton2.Text = "Customers";
-            this.Customersbutton2.UseVisualStyleBackColor = true;
-            this.Customersbutton2.Visible = false;
-            this.Customersbutton2.Click += new System.EventHandler(this.Customersbutton2_Click);
             // 
             // customerpanel
             // 
@@ -292,6 +280,18 @@
             this.nameTxt.Size = new System.Drawing.Size(397, 31);
             this.nameTxt.TabIndex = 9;
             // 
+            // Customersbutton2
+            // 
+            this.Customersbutton2.Location = new System.Drawing.Point(231, 788);
+            this.Customersbutton2.Margin = new System.Windows.Forms.Padding(6);
+            this.Customersbutton2.Name = "Customersbutton2";
+            this.Customersbutton2.Size = new System.Drawing.Size(150, 47);
+            this.Customersbutton2.TabIndex = 16;
+            this.Customersbutton2.Text = "Customers";
+            this.Customersbutton2.UseVisualStyleBackColor = true;
+            this.Customersbutton2.Visible = false;
+            this.Customersbutton2.Click += new System.EventHandler(this.Customersbutton2_Click);
+            // 
             // textBox1
             // 
             this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -313,39 +313,6 @@
             this.BackToHomeBttn.Text = "Home";
             this.BackToHomeBttn.UseVisualStyleBackColor = true;
             this.BackToHomeBttn.Click += new System.EventHandler(this.BackToHomeBttn_Click);
-            // 
-            // dataGridView1
-            // 
-            this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.Column1,
-            this.Column2,
-            this.Column3});
-            this.dataGridView1.Location = new System.Drawing.Point(8, 216);
-            this.dataGridView1.Margin = new System.Windows.Forms.Padding(6);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(1051, 541);
-            this.dataGridView1.TabIndex = 9;
-            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
-            // 
-            // Column1
-            // 
-            this.Column1.HeaderText = "Full Name";
-            this.Column1.Name = "Column1";
-            this.Column1.ReadOnly = true;
-            // 
-            // Column2
-            // 
-            this.Column2.HeaderText = "Number";
-            this.Column2.Name = "Column2";
-            this.Column2.ReadOnly = true;
-            // 
-            // Column3
-            // 
-            this.Column3.HeaderText = "Email";
-            this.Column3.Name = "Column3";
-            this.Column3.ReadOnly = true;
             // 
             // notFoundLab
             // 
@@ -409,6 +376,39 @@
             this.Column4.Name = "Column4";
             this.Column4.ReadOnly = true;
             // 
+            // dataGridView1
+            // 
+            this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.Column1,
+            this.Column2,
+            this.Column3});
+            this.dataGridView1.Location = new System.Drawing.Point(8, 216);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(6);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.Size = new System.Drawing.Size(1051, 541);
+            this.dataGridView1.TabIndex = 9;
+            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
+            // 
+            // Column1
+            // 
+            this.Column1.HeaderText = "Full Name";
+            this.Column1.Name = "Column1";
+            this.Column1.ReadOnly = true;
+            // 
+            // Column2
+            // 
+            this.Column2.HeaderText = "Number";
+            this.Column2.Name = "Column2";
+            this.Column2.ReadOnly = true;
+            // 
+            // Column3
+            // 
+            this.Column3.HeaderText = "Email";
+            this.Column3.Name = "Column3";
+            this.Column3.ReadOnly = true;
+            // 
             // mainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
@@ -425,8 +425,8 @@
             this.customersPanel.PerformLayout();
             this.customerpanel.ResumeLayout(false);
             this.customerpanel.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
